@@ -1,0 +1,31 @@
+/*
+    Simplification:
+     - hacker declares his role, smart contract just trust it. This can be improved with skill validation protocol. 
+     - we limit hackers to propose maximum 3 options which this number can be mathatically proposed. 
+     - team lead has the full right to pick proposed hacker to fill the role. This can be expanded with team decision down the road. 
+     - both hacker and team lead may be able to fill multiple roles 
+     - leader is the default idea initator. Once the idea is posted, leader will not be changed.
+
+    Complexity
+     - same address can fill multiple positions i.e. leader and hacker. 
+     - <address, role, ideaId> can have N(roles) * M (ideas)
+     - pick 1st role, vote 3 possible ideas. 
+
+    Protocol
+     1. All can declare which role(s) he can play based on his skills ahead of time, It is optional but not required. 
+     2. Leaders post ideas. 
+     3. Hackers vote on 3 idea choices and re-declare role he will play in. 
+     4. Leader f2f discusses with idea voters. 
+     5. Leader makes a final call to pick hackers to accept their voting. 
+     6. If team is filled up, it is THE END - announce poject team!!!
+     7. If team is not filled up, current team decides to whether to take some or all remain roles. 
+     8. If team is filled up, it is THE END, - announce poject team!!!
+     9. If team is not filled up, team lead can decide whether still finalize the team. 
+     10. If team lead still want to finalize partial team, it is THE END, - announce project team!!! 
+*/
+
+
+/*
+    learn lessons:
+    . cannot have too many (over 8) fields structure. stack is too deep error.
+    

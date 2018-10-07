@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "Frieda",
+    "picture": "images/scottish-terrier.jpeg",
+    "role_1": 1,
+    "role_2": 2,
+    "location": "Lisco, Alabama"
+  },
+  {
+    "id": 1,
+    "name": "Frieda",
+    "picture": "images/scottish-terrier.jpeg",
+    "role_1": 3,
+    "location": "Lisco, Alabama"
+  },
+  {
+    "id": 1,
+    "name": "Gina",
+    "picture": "images/scottish-terrier.jpeg",
+    "role_1": 4,
+    "location": "Tooleville, West Virginia"
+  },
+  {
+    "id": 2,
+    "name": "Collins",
+    "picture": "images/french-bulldog.jpeg",
+    "role_1": 3,
+    "location": "Freeburn, Idaho"
+  },
+  {
+    "id": 3,
+    "name": "Melissa",
+    "picture": "images/boxer.jpeg",
+    "role_1": 4,
+    "location": "Camas, Pennsylvania"
+  }
+]
